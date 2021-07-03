@@ -13,16 +13,24 @@ $ npm i -g linengrok
 ## 使い方
 
 ```
-$ linengrok http -t <アクセストークン> -h <ポート> -p <パス>
+$ linengrok http <PORT> -t <アクセストークン>
 ```
 
 以下のようになります。
 
 ```
-$ linengrok http -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -h 5000 -p /webhook
+$ linengrok http 3000 -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 これでngrokでサーバーを起動させると、そのURLにLINE BOTのエンドポイントが変わります。
+
+`-p`オプションでパス指定ができます。デフォルトだと`/webhook`になります。
+
+- パス指定の例
+
+```
+$ linengrok http 3000 -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -p /linebot
+```
 
 ## 類似ツール
 

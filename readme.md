@@ -23,3 +23,7 @@ $ linengrok http -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -h 5000 
 ```
 
 これでngrokでサーバーを起動させると、そのURLにLINE BOTのエンドポイントが変わります。
+
+## 類似ツール
+
+[linebotcli](https://www.npmjs.com/package/linebotcli)で同じようなことができます。

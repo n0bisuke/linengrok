@@ -1,6 +1,6 @@
 {
   "name": "linengrok",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "app.js",
   "bin": {
@@ -9,7 +9,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:n0bisuke/linengrok.git"
+  },
+  "keywords": ["line","line bot","messaging api","ngrok"],
   "author": "",
   "license": "ISC",
   "dependencies": {

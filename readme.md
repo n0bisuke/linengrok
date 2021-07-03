@@ -27,3 +27,9 @@ $ linengrok http -t xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -h 5000 
 ## 類似ツール
 
 [linebotcli](https://www.npmjs.com/package/linebotcli)で同じようなことができます。
+
+```
+$ linebotcli ngrok ~~~
+```
+
+のコマンドにマージしていきます。

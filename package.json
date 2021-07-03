@@ -1,0 +1,20 @@
+{
+  "name": "linengrok",
+  "version": "0.0.2",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "linebotcli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^8.0.0",
+    "ngrok": "^4.0.1"
+  }
+}
